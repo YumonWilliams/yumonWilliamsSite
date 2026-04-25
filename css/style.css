@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "w95fa";
+    src: url("../media/fonts/w95fa.woff2") format("woff2");
+    /* font-weight: ;
+    font-style: ; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "pixelout";
+    src: url("../media/fonts/pixelout.ttf");
+    /* font-weight: ;
+    font-style: ; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ka1";
+    src: url("../media/fonts/ka1.ttf");
+    /* font-weight: ;
+    font-style: ; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "chintzy-noFill";
+    src: url("../media/fonts/chintzy-noFill.ttf");
+    /* font-weight: ;
+    font-style: ; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "chintzy-fill";
+    src: url("../media/fonts/chintzy-fill.ttf");
+    /* font-weight: ;
+    font-style: ; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "angels";
+    src: url(../media/fonts/angels.ttf);
+    font-weight: 400;
+    font-display: swap;
+}
+
+/* body {
+    background-image: url(../media/img/abg1.png) ;
+} */
+
+.page-title {
+    text-align: center;
+    font-family: "angels";
+    color: white;
+    margin-top: 20px;
+    background-image: url("../media/img/bg2.png");
+    border-radius: 15%;
+    border: purple;
+}
+
+.navigationBar {
+    text-align: center;
+    justify-content:center;
+
+}
+
+.buttonText {
+    color: white;
+    font-family: "pixelout";
+    font-size:large;
+    padding: 1%;
+    margin: 3%;
+    text-decoration: none;
+}
+
+.navButton {
+    background-image: url(../media/img/abg3.png);
+    border-color: yellow;
+    text-shadow:
+        0 0 6px black,
+        0 0 9px black;
+}
+
+.bodyContent {
+    font-family: "w95fa";
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.orb {
+    width: 30%;
+    height: auto;
+}
+
+.orbHolder {
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+    background-image: ;
+}
+
+
+.pageContent {
+    background-image: url(../media/img/abg2.png);
+    /* border: yellow; */
+    border-style: solid;
+    padding: 1%;
+}
+
+p {
+    font-weight:600;
+}
+
+.headContainer {
+    text-align: center;
+}
